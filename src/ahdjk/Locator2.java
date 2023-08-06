@@ -19,6 +19,7 @@ public class Locator2 {
 		driver.findElement(By.name("inputPassword")).sendKeys("rahulshettyacademy");
 		driver.findElement(By.className("signInBtn")).click();
 		System.out.println(driver.findElement(By.tagName("p")).getText());
+		System.out.println("ahad khan");
 		//Assert.
 	}
 }
