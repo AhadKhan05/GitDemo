@@ -36,7 +36,7 @@ public class Locator {
 		driver.findElement(By.id("chkboxOne")).click();
 		Thread.sleep(1000);
 		driver.findElement(By.className("signInBtn")).click();
-		
+		System.out.println("ahad khan")
 		
 		
 		
